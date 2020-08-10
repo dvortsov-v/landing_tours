@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol id="burger" viewBox="0 0 30 26" >
+        <rect width="30" height="2" />
+        <rect y="12" width="30" height="2"/>
+        <rect y="24" width="30" height="2"/>
+    </symbol>
+</svg>
