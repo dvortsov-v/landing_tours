@@ -12,7 +12,7 @@
   }
 
   &__content {
-    max-width: em(620, $fz);
+    width: em(620, $fz);
   }
 
   &__title {
@@ -94,6 +94,20 @@
   &__social {
     max-width: em(220, $fz);
   }
+
+  &__main {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &__videos {
+    display: flex;
+    align-items: flex-end;
+    flex-basis: calc(100% - #{em(620, $fz)});
+    padding-left: em(155, $fz);
+    padding-bottom: em(46, $fz);
+    min-width: 0;
+  }
 }
 
 .header {
@@ -156,5 +170,37 @@
     &--vk {
       width: em(24, $fz);
     }
+  }
+}
+
+.video-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: em(26, $fz);
+  min-width: em(285, $fz);
+  height: em(200, $fz);
+  background-image: linear-gradient(360deg, hsl(0, 0%, 0%) 0%, hsla(0, 0%, 0%, 0) 72.92%), url("../img/main-section/Island.jpg");
+  border-radius: em(16, $fz);
+  background-size: cover;
+  background-position: center center;
+
+  &__counter,
+  &__name {
+    $fz: 18;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: em($fz, $fz_base);
+    font-weight: 700;
+    line-height: em(26, $fz);
+    color: hsl(0, 0%, 100%);
+  }
+
+  &__name {
+    max-width: 50%;
+  }
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
   }
 }

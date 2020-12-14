@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Tours</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
@@ -61,10 +62,48 @@
                     </div>
                 </div>
                 <div class="main-section__videos">
-                    <div class="video-slide">
-                        <div class="video-slide__counter"></div>
-                        <div class="video-slide__name"></div>
-                        <div class="video-slide__arrow"></div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="main-section__slide video-slide swiper-slide">
+                                <picture>
+                                    <source src="./img/main-section/Island.jpg">
+                                    <img src="./img/main-section/Island.jpg" alt="">
+                                </picture>
+                                <div class="video-slide__counter">1</div>
+                                <div class="video-slide__box">
+                                    <div class="video-slide__name">Водопады Исландии</div>
+                                    <div class="video-slide__arrow"></div>
+                                </div>
+                            </div>
+                            <div class="main-section__slide video-slide swiper-slide">
+                                <div class="video-slide__counter">2</div>
+                                <div class="video-slide__box">
+                                    <div class="video-slide__name">Водопады Исландии</div>
+                                    <div class="video-slide__arrow"></div>
+                                </div>
+                            </div>
+                            <div class="main-section__slide video-slide swiper-slide">
+                                <div class="video-slide__counter">3</div>
+                                <div class="video-slide__box">
+                                    <div class="video-slide__name">Водопады Исландии</div>
+                                    <div class="video-slide__arrow"></div>
+                                </div>
+                            </div>
+                            <div class="main-section__slide video-slide swiper-slide">
+                                <div class="video-slide__counter">4</div>
+                                <div class="video-slide__box">
+                                    <div class="video-slide__name">Водопады Исландии</div>
+                                    <div class="video-slide__arrow"></div>
+                                </div>
+                            </div>
+                            <div class="main-section__slide video-slide swiper-slide">
+                                <div class="video-slide__counter">5</div>
+                                <div class="video-slide__box">
+                                    <div class="video-slide__name">Водопады Исландии</div>
+                                    <div class="video-slide__arrow"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </main>
@@ -73,5 +112,6 @@
         <section></section>
         <footer></footer>
     </div>
+    <script src="./js/index.min.js"></script>
 </body>
 </html>
