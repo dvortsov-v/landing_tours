@@ -16,10 +16,7 @@
                     <div class="menu__item">Отзывы</div>
                     <div class="menu__item">Контакты</div>
                 </nav>
-                <div class="header__gam menu-burger">
-                    <svg class="menu-burger__ico">
-                        <use xlink:href="img/sprite.svg#burger"></use>
-                    </svg>
+                <div class="header__psevdo">
                 </div>
             </header>
             <main class="main-section__main">
@@ -27,8 +24,8 @@
                     <h1 class="main-section__title">Открой для себя Новую Ирландию</h1>
                     <p class="main-section__subtitle">Авторские туры по экзотическим уголкам от Ивана Иванова</p>
                     <div class="main-section__buttons">
-                        <button class="main-section__request">
-                            <span class="main-section__text">Оставить заявку</span>
+                        <button class="main-section__request btn-send-request">
+                            <span class="btn-send-request__text">Оставить заявку</span>
                         </button>
                         <label class="main-section__video">
                             <button class="main-section__watch"></button>
@@ -39,22 +36,22 @@
                         <span class="main-section__subscription">Подписывайтесь в соц. сетях:</span>
                         <ul class="socials-icon">
                             <li class="socials-icon__item">
-                                <svg class="socials-icon__svg socials-icon__svg--youtube">
+                                <svg class="socials-icon__svg socials-icon__svg--theme-light socials-icon__svg--youtube">
                                     <use xlink:href="img/sprite-social.svg#youtube"></use>
                                 </svg>
                             </li>
                             <li class="socials-icon__item">
-                                <svg class="socials-icon__svg socials-icon__svg--facebook">
+                                <svg class="socials-icon__svg socials-icon__svg--theme-light socials-icon__svg--facebook">
                                     <use xlink:href="img/sprite-social.svg#facebook"></use>
                                 </svg>
                             </li>
                             <li class="socials-icon__item">
-                                <svg class="socials-icon__svg socials-icon__svg--twitter">
+                                <svg class="socials-icon__svg socials-icon__svg--theme-light socials-icon__svg--twitter">
                                     <use xlink:href="img/sprite-social.svg#twitter"></use>
                                 </svg>
                             </li>
                             <li class="socials-icon__item">
-                                <svg class="socials-icon__svg socials-icon__svg--vk">
+                                <svg class="socials-icon__svg socials-icon__svg--theme-light socials-icon__svg--vk">
                                     <use xlink:href="img/sprite-social.svg#vk"></use>
                                 </svg>
                             </li>
@@ -62,56 +59,196 @@
                     </div>
                 </div>
                 <div class="main-section__videos">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="main-section__slide video-slide swiper-slide">
-                                <picture>
-                                    <source src="./img/main-section/Island.jpg">
-                                    <img src="./img/main-section/Island.jpg" alt="">
-                                </picture>
-                                <div class="video-slide__counter">1</div>
-                                <div class="video-slide__box">
-                                    <div class="video-slide__name">Водопады Исландии</div>
-                                    <div class="video-slide__arrow"></div>
-                                </div>
-                            </div>
-                            <div class="main-section__slide video-slide swiper-slide">
-                                <div class="video-slide__counter">2</div>
-                                <div class="video-slide__box">
-                                    <div class="video-slide__name">Водопады Исландии</div>
-                                    <div class="video-slide__arrow"></div>
-                                </div>
-                            </div>
-                            <div class="main-section__slide video-slide swiper-slide">
-                                <div class="video-slide__counter">3</div>
-                                <div class="video-slide__box">
-                                    <div class="video-slide__name">Водопады Исландии</div>
-                                    <div class="video-slide__arrow"></div>
-                                </div>
-                            </div>
-                            <div class="main-section__slide video-slide swiper-slide">
-                                <div class="video-slide__counter">4</div>
-                                <div class="video-slide__box">
-                                    <div class="video-slide__name">Водопады Исландии</div>
-                                    <div class="video-slide__arrow"></div>
-                                </div>
-                            </div>
-                            <div class="main-section__slide video-slide swiper-slide">
-                                <div class="video-slide__counter">5</div>
-                                <div class="video-slide__box">
-                                    <div class="video-slide__name">Водопады Исландии</div>
-                                    <div class="video-slide__arrow"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </main>
         </section>
-        <section></section>
-        <section></section>
-        <footer></footer>
+        <section class="tours-section">
+            <div class="tours-section__box">
+                <div class="tours-section__hot tours-section-hot">
+                    <picture class="tours-section-hot__picture">
+                        <source srcset="./img/main-section/Island.jpg">
+                        <img src="./img/main-section/Island.jpg" alt="" class="tours-section-hot__img">
+                    </picture>
+                    <div class="tours-section-hot__information">
+                        <span class="tours-section-hot__date">
+                            <span class="tours-section-hot__day">10-24</span>
+                            <span class="tours-section-hot__month">апреля</span>
+                        </span>
+                        <span class="tours-section-hot__location">
+                            Большое ущелье на острове Гавайи
+                        </span>
+                    </div>
+                </div>
+                <div class="tours-section__all">
+                    <h3 class="tours-section__title title">
+                        Посмотрите все направления туров
+                    </h3>
+                    <p class="tours-section__subtitle subtitle">
+                        Берега океанов и дикие пляжи с редкими породами деревьев. Местная архитектура и первозданный вид дикой природы
+                    </p>
+                    <button class="tours-section__view">
+                        Смотреть всё
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="callback-section">
+            <div class="callback-section__info">
+                <h3 class="callback-section__title title">Оставьте заявку на бесплатную консультацию</h3>
+                <p class="callback-section__subtitle subtitle">Мы перезвоним вам в ближайшее время</p>
+            </div>
+            <form action="" class="callback-section__form callback-section-form">
+                <input type="text" class="callback-section-form__name callback-section-input" placeholder="Ваше имя">
+<!--                TODO накинуть инпут телефон-->
+                <input type="text" class="callback-section-form__phone callback-section-input" placeholder="Телефон">
+                <button class="callback-section-form__submit btn-send-request">
+                    <span class="btn-send-request__text">
+                        Отправить заявку
+                    </span>
+                </button>
+                <p class="callback-section-form__agreement">
+                    Нажимая кнопку, Вы даете соглашасие на
+                    <span class="callback-section-form__personal">
+                        обработку персональную данных
+                    </span>
+                </p>
+            </form>
+        </section>
+        <section class="review-section">
+            <div class="review-section__box">
+                <div class="review-section__all">
+                    <h3 class="review-section__title title">
+                        Что пишут участники наших путешествий
+                    </h3>
+                    <p class="review-section__subtitle subtitle">
+                        87% участников приходят по личной рекомендации от друзей. А каждый 4-ый путешествует с нами больше двух раз
+                    </p>
+                    <button class="review-section__view">
+                        Читать отзывы
+                    </button>
+                </div>
+                <div class="review-section__hot review-section-hot">
+                    <picture class="review-section-hot__picture">
+                        <source srcset="./img/review-section/review.jpg">
+                        <img src="./img/review-section/review.jpg" alt="" class="review-section-hot__img">
+                    </picture>
+                    <div class="review-section-hot__information">
+                        <span class="review-section-hot__date">
+                            <span class="review-section-hot__day">10-24</span>
+                            <span class="review-section-hot__month">апреля</span>
+                        </span>
+                        <span class="review-section-hot__location">
+                            Большое ущелье на острове Гавайи
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__information">
+                <img src="img/logo-dark.svg" alt="logo" class="footer__logo logo">
+                <span class="footer__text">Политика конфиденциальности</span>
+                <span class="footer__text">Соглашение на обработку персональных данных</span>
+            </div>
+            <div class="footer__social">
+                <ul class="socials-icon">
+                    <li class="socials-icon__item">
+                        <svg class="socials-icon__svg socials-icon__svg--theme-dark socials-icon__svg--youtube">
+                            <use xlink:href="img/sprite-social.svg#youtube"></use>
+                        </svg>
+                    </li>
+                    <li class="socials-icon__item">
+                        <svg class="socials-icon__svg socials-icon__svg--theme-dark socials-icon__svg--facebook">
+                            <use xlink:href="img/sprite-social.svg#facebook"></use>
+                        </svg>
+                    </li>
+                    <li class="socials-icon__item">
+                        <svg class="socials-icon__svg socials-icon__svg--theme-dark socials-icon__svg--twitter">
+                            <use xlink:href="img/sprite-social.svg#twitter"></use>
+                        </svg>
+                    </li>
+                    <li class="socials-icon__item">
+                        <svg class="socials-icon__svg socials-icon__svg--theme-dark socials-icon__svg--vk">
+                            <use xlink:href="img/sprite-social.svg#vk"></use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </footer>
     </div>
     <script src="./js/index.min.js"></script>
 </body>
 </html>
+
+
+
+
+<!--<div class="swiper-container">-->
+<!--    <div class="swiper-wrapper">-->
+<!--        <div class="main-section__slide video-slide swiper-slide">-->
+<!--            <picture class="video-slide__picture">-->
+<!--                <source srcset="./img/main-section/Island.jpg">-->
+<!--                <img src="./img/main-section/Island.jpg" alt="" class="video-slide__img">-->
+<!--            </picture>-->
+<!--            <div class="video-slide__content">-->
+<!--                <div class="video-slide__counter">1</div>-->
+<!--                <div class="video-slide__box">-->
+<!--                    <div class="video-slide__name">Водопады Исландии</div>-->
+<!--                    <div class="video-slide__arrow"></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="main-section__slide video-slide swiper-slide">-->
+<!--            <picture class="video-slide__picture">-->
+<!--                <source srcset="./img/main-section/Island.jpg">-->
+<!--                <img src="./img/main-section/Island.jpg" alt="" class="video-slide__img">-->
+<!--            </picture>-->
+<!--            <div class="video-slide__content">-->
+<!--                <div class="video-slide__counter">2</div>-->
+<!--                <div class="video-slide__box">-->
+<!--                    <div class="video-slide__name">Водопады Исландии</div>-->
+<!--                    <div class="video-slide__arrow"></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="main-section__slide video-slide swiper-slide">-->
+<!--            <picture class="video-slide__picture">-->
+<!--                <source srcset="./img/main-section/Island.jpg">-->
+<!--                <img src="./img/main-section/Island.jpg" alt="" class="video-slide__img">-->
+<!--            </picture>-->
+<!--            <div class="video-slide__content">-->
+<!--                <div class="video-slide__counter">3</div>-->
+<!--                <div class="video-slide__box">-->
+<!--                    <div class="video-slide__name">Водопады Исландии</div>-->
+<!--                    <div class="video-slide__arrow"></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="main-section__slide video-slide swiper-slide">-->
+<!--            <picture class="video-slide__picture">-->
+<!--                <source srcset="./img/main-section/Island.jpg">-->
+<!--                <img src="./img/main-section/Island.jpg" alt="" class="video-slide__img">-->
+<!--            </picture>-->
+<!--            <div class="video-slide__content">-->
+<!--                <div class="video-slide__counter">4</div>-->
+<!--                <div class="video-slide__box">-->
+<!--                    <div class="video-slide__name">Водопады Исландии</div>-->
+<!--                    <div class="video-slide__arrow"></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="main-section__slide video-slide swiper-slide">-->
+<!--            <picture class="video-slide__picture">-->
+<!--                <source srcset="./img/main-section/Island.jpg">-->
+<!--                <img src="./img/main-section/Island.jpg" alt="" class="video-slide__img">-->
+<!--            </picture>-->
+<!--            <div class="video-slide__content">-->
+<!--                <div class="video-slide__counter">5</div>-->
+<!--                <div class="video-slide__box">-->
+<!--                    <div class="video-slide__name">Водопады Исландии</div>-->
+<!--                    <div class="video-slide__arrow"></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->

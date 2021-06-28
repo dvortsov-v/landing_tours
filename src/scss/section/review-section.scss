@@ -1,0 +1,114 @@
+.review-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: em(795, $fz);
+  padding: em(60, $fz);
+
+  &__box {
+    display: flex;
+    max-width: em(1340, $fz);
+  }
+
+  &__title {
+    margin-bottom: em(30, $fz);
+  }
+
+  &__subtitle {
+    margin-bottom: em(50, $fz);
+  }
+
+  &__hot {
+    height: em(475, $fz);
+  }
+
+  &__all {
+    padding-top: em(65, $fz);
+    padding-right: em(100, $fz);
+  }
+
+  &__view {
+    $fz: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: em($fz, $fz_base);
+    line-height: em(24, $fz);
+    color: hsl(47, 86%, 54%);
+    width: em(305, $fz);
+    min-height: em(75, $fz);
+    border: 2px solid hsl(47, 86%, 54%);
+    border-radius: em(38, $fz);
+    font-weight: 700;
+  }
+}
+
+.review-section-hot {
+  min-width: em(830, $fz);
+  position: relative;
+  padding: em(45 60, $fz);
+  border-radius: em(16, $fz);
+
+  &__picture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: inherit;
+  }
+
+  &__information {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  &__date {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__month {
+    $fz: 16;
+
+    font-size: em($fz, $fz_base);
+    font-weight: 500;
+    line-height: em(20, $fz);
+    color: hsl(0, 0%, 100%);
+  }
+
+  &__day {
+    $fz: 20;
+
+    font-size: em($fz, $fz_base);
+    font-weight: 700;
+    line-height: em(30, $fz);
+    font-family: 'PlayfairDisplay', sans-serif;
+    color: hsl(0, 0%, 100%);
+  }
+
+  &__location {
+    $fz: 20;
+    font-size: em($fz, $fz_base);
+    font-weight: 500;
+    line-height: em(34, $fz);
+    color: hsl(0, 0%, 100%);
+    max-width: em(300, $fz);
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+

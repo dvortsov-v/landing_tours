@@ -1,0 +1,80 @@
+.callback-section {
+  display: flex;
+  justify-content: center;
+  min-height: em(520, $fz);
+  background: hsl(0, 0%, 100%) url('../img/callback-section/callback-bg.jpg') 50% 50% no-repeat;
+  background-size: cover;
+  padding: em(75 60, $fz);
+
+  &__info {
+    max-width: em(350, $fz);
+    margin-right: em(75, $fz);
+    margin-left: em(150, $fz);
+  }
+
+  &__subtitle {
+    margin-top: em(30, $fz);
+  }
+}
+
+.callback-section-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__name {
+    margin-bottom: em(20, $fz);
+  }
+
+  &__phone {
+    margin-bottom: em(25, $fz);
+  }
+
+  &__submit {
+    margin-bottom: em(10, $fz);
+  }
+
+  &__agreement {
+    $fz: 11;
+
+    font-size: em($fz, $fz_base);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: em(18, $fz);
+
+    text-align: center;
+    color: hsl(220, 43%, 19%);
+    max-width: em(230, $fz);
+  }
+
+  &__personal {
+    color: hsl(47, 51%, 46%);
+  }
+}
+
+.callback-section-input {
+  $fz: 20;
+
+  min-width: em(310, $fz);
+  min-height: em(75, $fz);
+
+  border: 2px solid hsl(208, 29%, 68%);
+  border-radius: em(38, $fz);
+  padding-left: em(35, $fz);
+  padding-right: em(15, $fz);
+  font-size: em($fz, $fz_base);
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(208, 29%, 68%);
+  line-height: em(24, $fz);
+
+  &::placeholder {
+    $fz: 20;
+
+    font-size: em($fz, $fz_base);
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(208, 29%, 68%);
+  }
+}
