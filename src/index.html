@@ -12,9 +12,9 @@
             <header class="main-section__header header">
                 <img src="img/logo.svg" alt="logo" class="header__logo logo">
                 <nav class="header__menu menu">
-                    <div class="menu__item">Все туры</div>
-                    <div class="menu__item">Отзывы</div>
-                    <div class="menu__item">Контакты</div>
+                    <button class="menu__item menu-item-tours">Все туры</button>
+                    <button class="menu__item menu-item-callback">Отзывы</button>
+                    <button class="menu__item menu-item-review">Контакты</button>
                 </nav>
                 <div class="header__psevdo">
                 </div>
@@ -59,6 +59,75 @@
                     </div>
                 </div>
                 <div class="main-section__videos">
+                    <div class="swiper-container swiper">
+                        <div class="swiper-wrapper">
+                            <div class="main-section__slide video-slide swiper-slide">
+                                <picture class="video-slide__picture">
+                                    <source srcset="./img/main-section/Island.webp">
+                                    <img src="./img/main-section/Island.jpg" alt="" class="video-slide__img">
+                                </picture>
+                                <div class="video-slide__content">
+                                    <div class="video-slide__counter">1</div>
+                                    <div class="video-slide__box">
+                                        <div class="video-slide__name">Водопады Исландии</div>
+                                        <div class="video-slide__arrow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-section__slide video-slide swiper-slide">
+                                <picture class="video-slide__picture">
+                                    <source srcset="./img/main-section/Dolomites.jpg">
+                                    <img src="./img/main-section/Dolomites.jpg" alt="" class="video-slide__img">
+                                </picture>
+                                <div class="video-slide__content">
+                                    <div class="video-slide__counter">2</div>
+                                    <div class="video-slide__box">
+                                        <div class="video-slide__name">Водопады Исландии</div>
+                                        <div class="video-slide__arrow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-section__slide video-slide swiper-slide">
+                                <picture class="video-slide__picture">
+                                    <source srcset="./img/main-section/Norway.webp">
+                                    <img src="./img/main-section/Norway.jpg" alt="" class="video-slide__img">
+                                </picture>
+                                <div class="video-slide__content">
+                                    <div class="video-slide__counter">3</div>
+                                    <div class="video-slide__box">
+                                        <div class="video-slide__name">Водопады Исландии</div>
+                                        <div class="video-slide__arrow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-section__slide video-slide swiper-slide">
+                                <picture class="video-slide__picture">
+                                    <source srcset="./img/main-section/Island.webp">
+                                    <img src="./img/main-section/Island.jpg" alt="" class="video-slide__img">
+                                </picture>
+                                <div class="video-slide__content">
+                                    <div class="video-slide__counter">4</div>
+                                    <div class="video-slide__box">
+                                        <div class="video-slide__name">Водопады Исландии</div>
+                                        <div class="video-slide__arrow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-section__slide video-slide swiper-slide">
+                                <picture class="video-slide__picture">
+                                    <source srcset="./img/main-section/Dolomites.webp">
+                                    <img src="./img/main-section/Dolomites.jpg" alt="" class="video-slide__img">
+                                </picture>
+                                <div class="video-slide__content">
+                                    <div class="video-slide__counter">5</div>
+                                    <div class="video-slide__box">
+                                        <div class="video-slide__name">Водопады Исландии</div>
+                                        <div class="video-slide__arrow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </main>
         </section>
@@ -99,8 +168,7 @@
             </div>
             <form action="" class="callback-section__form callback-section-form">
                 <input type="text" class="callback-section-form__name callback-section-input" placeholder="Ваше имя">
-<!--                TODO накинуть инпут телефон-->
-                <input type="text" class="callback-section-form__phone callback-section-input" placeholder="Телефон">
+                <input type="text" class="callback-section-form__phone callback-section-input" placeholder="+7(___)___-__-__">
                 <button class="callback-section-form__submit btn-send-request">
                     <span class="btn-send-request__text">
                         Отправить заявку
@@ -179,76 +247,3 @@
     <script src="./js/index.min.js"></script>
 </body>
 </html>
-
-
-
-
-<!--<div class="swiper-container">-->
-<!--    <div class="swiper-wrapper">-->
-<!--        <div class="main-section__slide video-slide swiper-slide">-->
-<!--            <picture class="video-slide__picture">-->
-<!--                <source srcset="./img/main-section/Island.jpg">-->
-<!--                <img src="./img/main-section/Island.jpg" alt="" class="video-slide__img">-->
-<!--            </picture>-->
-<!--            <div class="video-slide__content">-->
-<!--                <div class="video-slide__counter">1</div>-->
-<!--                <div class="video-slide__box">-->
-<!--                    <div class="video-slide__name">Водопады Исландии</div>-->
-<!--                    <div class="video-slide__arrow"></div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="main-section__slide video-slide swiper-slide">-->
-<!--            <picture class="video-slide__picture">-->
-<!--                <source srcset="./img/main-section/Island.jpg">-->
-<!--                <img src="./img/main-section/Island.jpg" alt="" class="video-slide__img">-->
-<!--            </picture>-->
-<!--            <div class="video-slide__content">-->
-<!--                <div class="video-slide__counter">2</div>-->
-<!--                <div class="video-slide__box">-->
-<!--                    <div class="video-slide__name">Водопады Исландии</div>-->
-<!--                    <div class="video-slide__arrow"></div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="main-section__slide video-slide swiper-slide">-->
-<!--            <picture class="video-slide__picture">-->
-<!--                <source srcset="./img/main-section/Island.jpg">-->
-<!--                <img src="./img/main-section/Island.jpg" alt="" class="video-slide__img">-->
-<!--            </picture>-->
-<!--            <div class="video-slide__content">-->
-<!--                <div class="video-slide__counter">3</div>-->
-<!--                <div class="video-slide__box">-->
-<!--                    <div class="video-slide__name">Водопады Исландии</div>-->
-<!--                    <div class="video-slide__arrow"></div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="main-section__slide video-slide swiper-slide">-->
-<!--            <picture class="video-slide__picture">-->
-<!--                <source srcset="./img/main-section/Island.jpg">-->
-<!--                <img src="./img/main-section/Island.jpg" alt="" class="video-slide__img">-->
-<!--            </picture>-->
-<!--            <div class="video-slide__content">-->
-<!--                <div class="video-slide__counter">4</div>-->
-<!--                <div class="video-slide__box">-->
-<!--                    <div class="video-slide__name">Водопады Исландии</div>-->
-<!--                    <div class="video-slide__arrow"></div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="main-section__slide video-slide swiper-slide">-->
-<!--            <picture class="video-slide__picture">-->
-<!--                <source srcset="./img/main-section/Island.jpg">-->
-<!--                <img src="./img/main-section/Island.jpg" alt="" class="video-slide__img">-->
-<!--            </picture>-->
-<!--            <div class="video-slide__content">-->
-<!--                <div class="video-slide__counter">5</div>-->
-<!--                <div class="video-slide__box">-->
-<!--                    <div class="video-slide__name">Водопады Исландии</div>-->
-<!--                    <div class="video-slide__arrow"></div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->

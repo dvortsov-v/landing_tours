@@ -87,6 +87,7 @@
     padding-left: em(155, $fz);
     padding-bottom: em(46, $fz);
     min-width: 0;
+    width: calc(100% - #{em(620, $fz)});
   }
 }
 
@@ -193,6 +194,7 @@
     height: 100%;
     object-fit: cover;
     object-position: center center;
+    border-radius: inherit;
   }
 
   &__content {
