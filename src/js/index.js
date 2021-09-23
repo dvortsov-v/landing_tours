@@ -8,6 +8,7 @@ const selectionReview = document.querySelector('.review-section');
 const btnTours = document.querySelector('.menu-item-tours');
 const btnCallback = document.querySelector('.menu-item-callback');
 const btnReview = document.querySelector('.menu-item-review');
+const btnApplication = document.querySelector('.main-section__request');
 
 const scrollToSection = (elem) => {
     window.scroll({
@@ -27,4 +28,8 @@ btnCallback.addEventListener('click', () => {
 
 btnReview.addEventListener('click', () => {
     scrollToSection(selectionReview)
+});
+
+btnApplication.addEventListener('click', () => {
+    scrollToSection(selectionCallback)
 });
